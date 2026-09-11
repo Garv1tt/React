@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 export default function Home() {
     return (
-        <div className="mx-auto w-full max-w-7xl bg-gray-700">
-            <aside className="relative overflow-hidden text-white rounded-lg sm:mx-16 mx-2 sm:py-16">
+        <div className="mx-auto w-full max-w-7xl">
+            <aside className="relative overflow-hidden  rounded-lg sm:mx-16 mx-2 sm:py-16">
                 <div className="relative z-10 max-w-screen-xl px-4  pb-20 pt-10 sm:py-24 mx-auto sm:px-6 lg:px-8">
                     <div className="max-w-xl sm:mt-1 mt-80 space-y-8 text-center sm:text-right sm:ml-auto">
                         <h2 className="text-4xl font-bold sm:text-5xl">
@@ -39,7 +39,12 @@ export default function Home() {
                 <img className="sm:w-96 w-48" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKJC6b-DWS5Ln1MYAW6cHGxUIuvcMWWnVtFOYWMNXetev31bAc66E872IL&s=10" alt="image2" />
             </div>
 
-            <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Read More Below</h1>
+            <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">
+                What Are Software Developers?
+            </h1>
+            <span className='text-xl'>Software developers are professionals who design, build, test, and maintain software applications and systems to solve specific user problems or meet business objectives.  They work across the entire software development lifecycle, translating requirements into functional code using languages like Java, Python, or JavaScript, and collaborating with cross-functional teams to ensure performance, security, and usability. 
+
+            While the role often overlaps with software engineering, developers typically focus on application-level development and creating specific programs for consumers or internal use, rather than designing large-scale system architectures.  Their core responsibilities include writing clean code, debugging errors, performing code reviews, and documenting processes to maintain high-quality standards and facilitate future updates. </span>
         </div>
     );
 }
