@@ -17,7 +17,7 @@ function Card(props) {
           alt="nft-gif"
           width="350"
           height="350"
-          className="rounded-xl"
+          className="rounded-xl mx-auto"
         />
       </div>
       <div className="flex flex-col  rounded-b-xl py-4 ">
