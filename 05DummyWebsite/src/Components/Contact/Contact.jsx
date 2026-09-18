@@ -60,7 +60,7 @@ export default function Contact() {
                                     />
                                 </svg>
                                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    +91 1111155555
+                                    <a href="tel: 8810340766">+91 8810340766</a>
                                 </div>
                             </div>
 
